@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = ['Better-JTSImageViewController/*.{h,m}']
-  s.public_header_files = 'Better-JTSImageViewController/*.h'
+  s.source_files = ['Source/*.{h,m}']
+  s.public_header_files = 'Source/*.h'
 
 end
