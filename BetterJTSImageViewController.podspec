@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = "Better-JTSImageViewController"
-  s.version      = "1.5.4"
+  s.name         = "BetterJTSImageViewController"
+  s.version      = "1.5.5"
   s.summary      = "An interactive iOS image viewer that does it all: double tap to zoom, flick to dismiss, et cetera."
   s.homepage     = "https://github.com/anxiaoyi/JTSImageViewController"
   s.license      = { :type => 'MIT', :file => 'LICENSE'  }
@@ -15,6 +15,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
 
   s.source_files = ['Source/*.{h,m}']
-  s.public_header_files = 'Source/*.h'
 
 end
