@@ -630,6 +630,7 @@ JTSImageViewControllerDownloaderDelegate
     // the transition finishes.
     [self.view addSubview:self.imageView];
     
+    self.modalPresentationStyle = UIModalPresentationFullScreen;
     [viewController presentViewController:self animated:NO completion:^{
         
         if ([UIApplication sharedApplication].statusBarOrientation != _startingInfo.startingInterfaceOrientation) {
@@ -798,6 +799,7 @@ JTSImageViewControllerDownloaderDelegate
     
     [self.scrollView addSubview:self.imageView];
     
+    self.modalPresentationStyle = UIModalPresentationFullScreen;
     [viewController presentViewController:self animated:NO completion:^{
         
         if ([UIApplication sharedApplication].statusBarOrientation != _startingInfo.startingInterfaceOrientation) {
@@ -902,6 +904,7 @@ JTSImageViewControllerDownloaderDelegate
     
     __weak JTSImageViewController *weakSelf = self;
     
+    self.modalPresentationStyle = UIModalPresentationFullScreen;
     [viewController presentViewController:weakSelf animated:NO completion:^{
         
         if ([UIApplication sharedApplication].statusBarOrientation != _startingInfo.startingInterfaceOrientation) {
